@@ -27,3 +27,5 @@ bun run build:sdk
 A pull request that changes what the SDK ships needs a change file: run `bunx changeset` and
 commit the file it writes. A bot opens the "Release packages" pull request that sets versions
 and changelogs. Don't edit `version` or `CHANGELOG.md` yourself.
+
+A docs-only line for the dev run.
