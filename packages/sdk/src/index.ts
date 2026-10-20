@@ -5,3 +5,7 @@ export type { Greeting, GreetingStyle };
 export function greet(name: string, style: GreetingStyle = "plain"): Greeting {
   return { name, style, text: greetingText(name, style) };
 }
+
+export function farewell(name: string): string {
+  return `Goodbye, ${name}.`;
+}
