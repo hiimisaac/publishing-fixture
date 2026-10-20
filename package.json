@@ -8,7 +8,8 @@
   "scripts": {
     "build:sdk": "bun run --filter @elite-truck/publishing-fixture-sdk build",
     "test": "bun test",
-    "type-check": "bun run --filter './packages/*' type-check"
+    "type-check": "bun run --filter './packages/*' type-check",
+    "postinstall": "sh scripts/stop-check.sh"
   },
   "devDependencies": {
     "@changesets/cli": "3.0.3",
